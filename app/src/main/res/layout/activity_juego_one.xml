@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".juegoOne"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccione_la_respuesta_correcta"
+        android:layout_margin="12dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:fontFamily="sans-serif"
+        />
+
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="208dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sandiaimg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            >
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="@string/a"
+                android:textSize="18dp"
+                android:layout_margin="25dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/purpura"
+                />
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="@string/b"
+                android:layout_margin="25dp"
+                android:backgroundTint="@color/purpura"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            >
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="@string/c"
+                android:textSize="18dp"
+                android:layout_margin="25dp"
+                android:backgroundTint="@color/purpura"
+                android:textColor="@color/black"
+                />
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:text="@string/d"
+                android:layout_margin="25dp"
+                android:textSize="18dp"
+                android:backgroundTint="@color/purpura"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/motivacion1"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buena_suerte"
+        android:layout_margin="20dp"
+    android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/greenOscuro"
+        />
+
+
+</LinearLayout>
